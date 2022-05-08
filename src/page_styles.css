@@ -1,0 +1,146 @@
+.navbar-inner-container {
+    list-style-type: none;
+    justify-content: space-around;
+    
+}
+
+.navbar-inner-container a {
+    text-decoration: none;
+}
+
+.navbar-container {
+    justify-content: flex-end;
+}
+
+.linkLike,
+.navbar-inner-container,
+.navbar-inner-container a {
+    padding: 1rem;
+    color: #0D6EFD;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+/* CONTACTS PAGE */
+.add-page-container {
+    width: 80%;
+    margin: 4rem auto;
+}
+
+.contacts-title {
+    font-size: 1.5rem;
+}
+
+.contacts-first-container{
+    margin-bottom: 5rem;
+}
+
+.add-btn-link {
+    width: 120px;
+    display: inline-block;
+}
+
+.add-btn {
+    display: inline-block;
+    height: 50px;
+}
+
+.table-container {
+    border-collapse: collapse;
+}
+
+
+
+.info-cell {
+    height: 40px;
+    width: 25%;
+    color: rgba(55, 65, 81, 1);
+    font-size: 1rem;
+}
+
+.edit-btn-container {
+    text-align: right;
+}
+
+.edit-icon {
+    margin-right: 1rem;
+}
+
+.list-empty {
+    text-align: center;
+}
+
+
+/*ADD PAGE*/
+
+.add-form-container{
+    width: 60%;
+    margin: 6rem auto 0 auto;
+}
+
+.form-label {
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: rgba(55, 65, 81, 1);
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.add-form-group {
+    margin: 1.5rem auto;
+    width: 60%;
+}
+
+.save-btn {
+   height: 40px;
+}
+
+.add-btn-container {
+    width: 60%;
+    margin: 2rem auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cancel-btn {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+
+/* ABOUT PAGE */
+
+.about-container {
+    width: 80%;
+    margin: 4rem auto;
+}
+
+.about-title {
+    color: #0D6EFD;
+    margin-bottom: 1rem;
+}
+
+.about-content {
+    line-height: 1.7;
+}
+
+.about-books {
+    line-height: 1.7;
+}
+
+.book-title {
+    /* color: #0D6EFD; */
+    font-weight: 600;
+}
+
+.article-link {
+    text-decoration: none;
+    color: #0D6EFD;
+}
